@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>-->
+
+    <color name="colorPrimary">#4ea546</color>
+    <color name="colorPrimaryDark">#0f4d00</color>
+
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="subtitle">#ff666666</color>
+    <color name="texto_descripcion">#494949</color>
+
+    <color name="titulos_campos">#ff666666</color>
+    <color name="campos_buscador">#edecec</color>
+
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="70"
+    android:weightSum="20">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/clasePres"
+        android:layout_weight="1"
+        style="@style/titulos_campos_buscador"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spnClasePrestación"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/spinner"
+        android:spinnerMode="dropdown">
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/tipoLici"
+        android:paddingLeft="10dp"
+        android:layout_weight="1"
+        style="@style/titulos_campos_buscador"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spnTipoLicitacion"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:background="@drawable/spinner"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+    </Spinner>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/tema"
+        android:paddingLeft="10dp"
+        android:layout_weight="1"
+        style="@style/titulos_campos_buscador"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spnTematica"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:background="@drawable/spinner"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+    </Spinner>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/fechaPub"
+        android:paddingLeft="10dp"
+        android:layout_weight="1"
+        style="@style/titulos_campos_buscador"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="4"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/btnFechaPub"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/calendar"
+            android:backgroundTint="@color/colorPrimaryDark" />
+        <View
+            android:visibility="gone"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffadadad"/>
+        <TextView
+            android:id="@+id/fechaPub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:textColor="@color/colorBlack"
+            android:layout_weight="3"
+            android:background="@color/campos_buscador" />
+    </LinearLayout>
+
+</LinearLayout>

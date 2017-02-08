@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!--android:src="@drawable/curso"-->
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/imagen"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/sanitarios"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_licitacion"
+        android:text="Este es un texto de título de actividad"
+        android:layout_toRightOf="@id/imagen"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descripcion_licitacion"
+        android:text="Este es un titulo de una descripción largo para probar al capacidad del texto que se va a mostrar como la descripción de la licitación de cada item"
+        android:layout_toRightOf="@id/imagen"
+        android:layout_below="@+id/titulo_licitacion"
+        android:textColor="@color/texto_descripcion"
+        android:maxLines="3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fecha_primera_publicacion"
+        android:text="Fecha de publicación"
+        android:layout_toRightOf="@id/imagen"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/descripcion_licitacion" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temática"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/imagen"
+        android:id="@+id/tematica"
+        android:textColor="#680005"
+        android:layout_below="@+id/fecha_primera_publicacion" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffadadad"
+        android:layout_below="@id/tematica"
+        android:layout_toRightOf="@id/imagen"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

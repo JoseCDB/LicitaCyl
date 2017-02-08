@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LicitaCyL</string>
+    <string name="title_activity_licitaciones">LicitacionesActivity</string>
+    <string name="clasePres">CLASE DE PRESTACIÓN</string>
+    <string name="tema">TEMÁTICA</string>
+    <string name="tipoLici">TIPO DE LICITACIÓN</string>
+    <string name="fechaPub">FECHA PUBLICACIÓN</string>
+    <string name="searchText">Texto</string>
+    <string name="buscar">Buscar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="no_results">No se han encontrado resultados</string>
+    <string name="update">Actualizando datos&#8230;</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_detalle">DetalleActivity</string>
+</resources>
